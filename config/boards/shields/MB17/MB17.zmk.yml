@@ -1,11 +1,9 @@
 file_format: "1"
-id: knob_goblin
-name: Knob Goblin
+id: MB17
+name: MB17
 type: shield
-url: https://knob-goblin.com/
+url: https://mountainblocks.com/
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - encoder
