@@ -16,7 +16,7 @@
         default_layer {
 
             bindings = <
-    &kp NUM         &kp KP_SLASH    &kp KP_MULTIPLY &kp KP_MINUS
+    &kp LOCKING_NU  &kp KP_SLASH    &kp KP_MULTIPLY &kp KP_MINUS
     &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 
     &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_PLUS
     &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 
@@ -29,8 +29,8 @@
         num_layer {
             bindings = <
     &trans          &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2
-    &kp HOME        &trans         &kp PAGE_UP      &trans
-    &kp LEFT_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans
+    &kp HOME        &kp UP_ARROW   &kp PAGE_UP      &trans
+    &kp LEFT_ARROW  &   trans      &kp RIGHT_ARROW  &trans
     &kp END         &kp DOWN_ARROW &kp PAGE_DOWN    &trans
                     &kp BACKSPACE  &kp DELETE       &trans
             >;
