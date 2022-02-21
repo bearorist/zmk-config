@@ -1,5 +1,5 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_KNOB_GOBLIN
-  def_bool $(shields_list_contains,knob_goblin)
+config SHIELD_MB17
+  def_bool $(shields_list_contains,MB17)
